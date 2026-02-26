@@ -41,22 +41,18 @@ requirements.txt → Dependencies
 
 ---
 
-# ⚙️ Installation
-
-Clone repo:
-
-git clone [https://github.com/yourusername/Sleep_detector.git](https://github.com/yourusername/Sleep_detector.git)
+# Clone repo
+git clone https://github.com/yourusername/Sleep_detector.git
 cd Sleep_detector
 
-Create virtual environment:
+# Create virtual environment (Python 3.12 recommended)
+python3.12 -m venv venv
 
-python3 -m venv venv
+# Activate environment
 source venv/bin/activate
 
-Install dependencies:
-
-pip install -r requirements.txt
-
+# Install dependencies (locked versions)
+pip install -r requirements-lock.txt
 ---
 
 # ▶️ Run Basic Version
